@@ -56,6 +56,7 @@ if (isset($_POST['submit'])) {
     <h1 align="center"><?php echo strtoupper($alg); ?></h1>
     <hr>
 </div>
+<div class="row">
     <div class="col-md-6">
         <h3>Plaintext = <?php echo $plaintext; ?></h3>
         <h3>Encripsi = <?php echo $hasilReverseBlock; ?></h3>
@@ -135,6 +136,7 @@ foreach ($S as $k => $value) {
             </tbody>
         </table>
     </div>
+</div>
 
     <!-- JS -->
     <!-- <script src="js/bootstrap.js"></script>
